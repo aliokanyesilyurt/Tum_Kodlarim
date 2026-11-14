@@ -1,0 +1,12 @@
+# Derleme çıktıları
+build/
+.dart_tool/
+.gradle/
+*.exe
+*.o
+
+# Yerel / gizli ayarlar
+local.properties
+google-services.json
+GoogleService-Info.plist
+.env

@@ -1,0 +1,36 @@
+/*
+1. Bitwise Operations & Masking (En Kritiği)
+Önce bunu halletmezsen Registerlara dokunamazsın.
+
+YouTube Araması: C programming bitwise operations, Bit masking in C set clear toggle, Bitwise operators real world examples.
+
+Odaklan: | (OR), & (AND), ~ (NOT), ^ (XOR), <<, >> operatörleri.
+
+2. Register Logic & Memory Mapped I/O
+Bitwise öğrendikten sonra bunu donanımla nasıl birleştireceğini anlaman lazım.
+
+YouTube Araması: Memory mapped IO explanation, How to access registers in C, Pointers to hardware addresses.
+
+Odaklan: Bir pointerı (int *ptr) RAM e değil de donanım adresine (0x40021000 gibi) eşitleme mantığı.
+
+3. Volatile Keyword (Olmazsa Olmaz)
+Bu konuyu bilmeyen gömülü yazılımcı olamaz. Kod çalışır ama cihaz çalışmaz, sebebini bulamazsın.
+
+YouTube Araması: volatile keyword in C embedded systems, compiler optimization vs volatile.
+
+Odaklan: Derleyici optimizasyonu nedir? volatile yazınca derleyiciye ne demiş oluyoruz?
+
+4. Unions & Endianness
+Haberleşme protokolleri (UART, I2C, SPI) ve veri paketleme için şart.
+
+YouTube Araması: C union vs struct, Little Endian vs Big Endian, Data serialization C.
+
+Odaklan: union kullanarak bir float sayıyı 4 tane byte a parçalama.
+
+5. Function Pointers (Callback Mantığı)
+Driver yazarken ve Interrupt (Kesme) fonksiyonlarında karşına çıkacak.
+
+YouTube Araması: Function pointers in C, Callback functions C tutorial.
+
+Odaklan: Bir fonksiyona parametre olarak başka fonksiyon göndermek.
+*/

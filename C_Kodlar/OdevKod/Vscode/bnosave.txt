@@ -1,0 +1,11 @@
+=== BNO55 CONFIGURATION ===
+[SETTINGS]
+G Range (Enum) = 2
+Bandwidth (Enum) = 6
+Operation Mode (Enum) = 0
+
+[REGISTER VALUE]
+Hexadecimal = 0x1a
+Decimal = 26
+Binary = 0b 000 110 10
+===
